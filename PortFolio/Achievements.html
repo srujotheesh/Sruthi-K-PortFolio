@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        *{
+            margin:0%;
+        }
+        .container{
+            border: 4px solid rgba(211, 181, 10, 0.847);
+            color:white;
+            background-color: rgba(211, 181, 10, 0.847);
+            padding:14px;
+            position: sticky;
+        }
+        .nav{
+            display: inline;
+            border:2px solid rgba(211, 181, 10, 0.847);
+            padding:14px;
+            border-radius: 8px;
+            font-size: large;
+        }
+        .nav:hover{
+            background-color: yellow;
+        }
+        .list{
+            display: inline;
+            margin-left: 850px;
+        }
+        .home{
+            text-align: left;
+            font-size: x-large;
+        }
+        a{
+            text-decoration: none;
+        }
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.skill{
+    
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(211, 181, 10, 0.847);
+    width: 40%;
+    margin-top: 3%;
+    border: 5px rgba(211, 181, 10, 0.847) inset;
+}
+.skill:hover{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+h2{
+    color: #333;
+    padding: 2px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 0.5em;
+    padding: 2px;
+    color: #555;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="home">PORTFOLIO-<i>SRUTHI K</i></span>
+        <ul class="list">
+            <li class="nav"><a href="Home.html">About Me</a></li>
+            <li class="nav"><a href="Education.html">Education</a></li>
+            <li class="nav"><a href="Projects.html">Projects</a></li>
+            <li class="nav"><a href="Achievements.html">Skills</a></li>
+        </ul>
+    </div>
+    <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin-left: 5%;margin-top: 2%;margin-bottom: 0%;">Skills</h1>
+    <div class="skills">
+        <div class="skill">
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                
+                
+
+            </ul>
+        </div>
+
+        <div class="skill">
+            <h2>Web Development</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>NodeJS</li>
+                <li>React</li>
+            </ul>
+        </div>
+        <br><br>
+        <div class="skill">
+            <h2>Libraries</h2>
+            <ul>
+                <li>NumPy</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>TensorFlow</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
