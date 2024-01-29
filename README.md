@@ -1,3 +1,3 @@
 # Sruthi-K-PortFolio
 My portfolio
-link--https://sruthi-k-portfolio.netlify.app/
+link--https://portfolio-sruthi-k.netlify.app
